@@ -540,6 +540,13 @@ div#archive {
     min-height: 40px;
   }
 }
+svg.icon {
+  width: 1.28em;
+  height: 1.28em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
 @-moz-keyframes light_15px {
   0% {
     text-shadow: #5636ed 0 0 15px;
