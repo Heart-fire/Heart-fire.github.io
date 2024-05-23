@@ -4,12 +4,18 @@
   
     
     <entry>
-      <title>第一篇文章</title>
-      <link href="/2024/05/21/2024-5-20-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-      <url>/2024/05/21/2024-5-20-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      <title>学伴易寻系统2</title>
+      <link href="/2024/05/22/%E5%AD%A6%E4%BC%B4%E6%98%93%E5%AF%BB%E7%B3%BB%E7%BB%9F2/"/>
+      <url>/2024/05/22/%E5%AD%A6%E4%BC%B4%E6%98%93%E5%AF%BB%E7%B3%BB%E7%BB%9F2/</url>
       
-        <content type="html"><![CDATA[<h2 id="这是我的第一篇文章"><a href="#这是我的第一篇文章" class="headerlink" title="这是我的第一篇文章"></a>这是我的第一篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="学伴易寻系统"><a href="#学伴易寻系统" class="headerlink" title="学伴易寻系统"></a>学伴易寻系统</h2><h2 id="项目简介"><a href="#项目简介" class="headerlink" title="项目简介"></a>项目简介</h2><h4 id="🥇项目介绍："><a href="#🥇项目介绍：" class="headerlink" title="🥇项目介绍："></a>🥇项目介绍：</h4><p>目的：帮助大家找到学习伙伴的<strong>移动端H5网站</strong>(APP风格)，</p><p>这是一个基于<strong>Spring Boot后端+Vue3</strong>前端的全栈项目，包括用<br>户登录、更新个人信息、按标签搜索用户、建房组队、推荐相似用户等功能。</p><h4 id="未来展望："><a href="#未来展望：" class="headerlink" title="未来展望："></a>未来展望：</h4><p>接下来，我会努力让“学伴易寻系统”变得更好用，增加一些新的功能，让大家找学伴、学知识变得更简单、更有趣。我相信，只要大家喜欢并支持，这个系统就能陪伴大家在学习路上走得更远，成为大家学习的好帮手！🤗</p><h4 id="技术选型："><a href="#技术选型：" class="headerlink" title="技术选型："></a><strong>技术选型：</strong></h4><h5 id="前端："><a href="#前端：" class="headerlink" title="前端："></a><strong>前端：</strong></h5><ol><li>Vue 3</li><li>Vant UI组件库</li><li>Vite脚手架</li><li>Axios请求库</li></ol><h5 id="后端"><a href="#后端" class="headerlink" title="后端"></a>后端</h5><ol><li>Java SpringBoot框架</li><li>MySQL数据库</li><li>MyBatis-Plus</li><li>MyBatis X自动生成代码</li><li>Redis缓存（多种Java实现方式）</li><li>Redis分布式登录</li><li>Redisson分布式锁</li><li>Easy Excel数据导入</li><li>Spring Scheduler 定时任务</li><li>Swagger+Knife4j接口文档</li><li>Gson:JS0N序列化库</li><li>相似度匹配算法</li></ol><h5 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h5><ul><li>Serverless服务</li><li>云原生容器平台</li></ul><p><br/></p><h3 id="主页"><a href="#主页" class="headerlink" title="主页"></a>主页</h3><h4 id="用户完成登录流程后，系统将引导至主界面，用户可选择进入心动模式以启动-用户匹配-服务。"><a href="#用户完成登录流程后，系统将引导至主界面，用户可选择进入心动模式以启动-用户匹配-服务。" class="headerlink" title="用户完成登录流程后，系统将引导至主界面，用户可选择进入心动模式以启动==用户匹配==服务。"></a>用户完成登录流程后，系统将引导至主界面，用户可选择进入心动模式以启动==用户匹配==服务。</h4><p><br/></p><p><img src="https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E5%AD%A6%E4%BC%B4%E6%98%93%E5%AF%BB%E5%9B%BE%E7%89%87%E9%9B%86/%E7%99%BB%E5%BD%95%EF%BC%8C%E4%B8%BB%E9%A1%B5%EF%BC%8C%E5%BF%83%E5%8A%A8.jpg" alt="登录，主页，心动"></p><p><br/></p><h3 id="队伍页"><a href="#队伍页" class="headerlink" title="队伍页"></a>队伍页</h3><h4 id="队伍界面管理：点击加号创建新队伍，支持-公开-与-加密-两种模式。"><a href="#队伍界面管理：点击加号创建新队伍，支持-公开-与-加密-两种模式。" class="headerlink" title="队伍界面管理：点击加号创建新队伍，支持==公开==与==加密==两种模式。"></a>队伍界面管理：点击加号创建新队伍，支持==公开==与==加密==两种模式。</h4><p><br/></p><p><img src="https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E5%AD%A6%E4%BC%B4%E6%98%93%E5%AF%BB%E5%9B%BE%E7%89%87%E9%9B%86/%E5%85%AC%E5%BC%80%EF%BC%8C%E5%8A%A0%E5%AF%86%EF%BC%8C%E5%88%9B%E5%BB%BA%E9%98%9F%E4%BC%8D.jpg" alt="公开，加密，创建队伍"></p><p><br/></p><h4 id="为了保护队伍隐私，加密队伍需要密码才能进入。同时，我们也提供-标签搜索-功能，帮助你快速找到志同道合的伙伴。"><a href="#为了保护队伍隐私，加密队伍需要密码才能进入。同时，我们也提供-标签搜索-功能，帮助你快速找到志同道合的伙伴。" class="headerlink" title="为了保护队伍隐私，加密队伍需要密码才能进入。同时，我们也提供==标签搜索==功能，帮助你快速找到志同道合的伙伴。"></a>为了保护队伍隐私，加密队伍需要密码才能进入。同时，我们也提供==标签搜索==功能，帮助你快速找到志同道合的伙伴。</h4><p><br/></p><p><img src="https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E5%AD%A6%E4%BC%B4%E6%98%93%E5%AF%BB%E5%9B%BE%E7%89%87%E9%9B%86/%E5%8A%A0%E5%AF%86%EF%BC%8C%E6%A0%87%E7%AD%BE%EF%BC%8C%E7%BB%93%E6%9E%9C.jpg" alt="加密，标签，结果"></p><p><br/></p><h3 id="个人页"><a href="#个人页" class="headerlink" title="个人页"></a>个人页</h3><h4 id="用户可以在个人信息界面方便地修改个人信息，并对自己创建和加入的队伍进行管理。"><a href="#用户可以在个人信息界面方便地修改个人信息，并对自己创建和加入的队伍进行管理。" class="headerlink" title="用户可以在个人信息界面方便地修改个人信息，并对自己创建和加入的队伍进行管理。"></a>用户可以在个人信息界面方便地修改个人信息，并对自己创建和加入的队伍进行管理。</h4><p><br/></p><p><img src="https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E5%AD%A6%E4%BC%B4%E6%98%93%E5%AF%BB%E5%9B%BE%E7%89%87%E9%9B%86/%E4%B8%AA%E4%BA%BA%EF%BC%8C%E4%BF%AE%E6%94%B9%EF%BC%8C%E5%B7%B2%E5%88%9B%E5%BB%BA.jpg" alt="个人，修改，已创建"></p>]]></content>
       
+      
+      <categories>
+          
+          <category> 系统2 </category>
+          
+      </categories>
       
       
     </entry>
@@ -17,12 +23,75 @@
     
     
     <entry>
-      <title>Hello World</title>
+      <title>学伴易寻系统</title>
+      <link href="/2024/05/21/%E5%AD%A6%E4%BC%B4%E6%98%93%E5%AF%BB%E7%B3%BB%E7%BB%9F/"/>
+      <url>/2024/05/21/%E5%AD%A6%E4%BC%B4%E6%98%93%E5%AF%BB%E7%B3%BB%E7%BB%9F/</url>
+      
+        <content type="html"><![CDATA[<h2 id="学伴易寻系统"><a href="#学伴易寻系统" class="headerlink" title="学伴易寻系统"></a>学伴易寻系统</h2><h2 id="项目简介"><a href="#项目简介" class="headerlink" title="项目简介"></a>项目简介</h2><h4 id="🥇项目介绍："><a href="#🥇项目介绍：" class="headerlink" title="🥇项目介绍："></a>🥇项目介绍：</h4><p>目的：帮助大家找到学习伙伴的<strong>移动端H5网站</strong>(APP风格)，</p><p>这是一个基于<strong>Spring Boot后端+Vue3</strong>前端的全栈项目，包括用<br>户登录、更新个人信息、按标签搜索用户、建房组队、推荐相似用户等功能。</p><h4 id="未来展望："><a href="#未来展望：" class="headerlink" title="未来展望："></a>未来展望：</h4><p>接下来，我会努力让“学伴易寻系统”变得更好用，增加一些新的功能，让大家找学伴、学知识变得更简单、更有趣。我相信，只要大家喜欢并支持，这个系统就能陪伴大家在学习路上走得更远，成为大家学习的好帮手！🤗</p><h4 id="技术选型："><a href="#技术选型：" class="headerlink" title="技术选型："></a><strong>技术选型：</strong></h4><h5 id="前端："><a href="#前端：" class="headerlink" title="前端："></a><strong>前端：</strong></h5><ol><li>Vue 3</li><li>Vant UI组件库</li><li>Vite脚手架</li><li>Axios请求库</li></ol><h5 id="后端"><a href="#后端" class="headerlink" title="后端"></a>后端</h5><ol><li>Java SpringBoot框架</li><li>MySQL数据库</li><li>MyBatis-Plus</li><li>MyBatis X自动生成代码</li><li>Redis缓存（多种Java实现方式）</li><li>Redis分布式登录</li><li>Redisson分布式锁</li><li>Easy Excel数据导入</li><li>Spring Scheduler 定时任务</li><li>Swagger+Knife4j接口文档</li><li>Gson:JS0N序列化库</li><li>相似度匹配算法</li></ol><h5 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h5><ul><li>Serverless服务</li><li>云原生容器平台</li></ul><p><br/></p><h3 id="主页"><a href="#主页" class="headerlink" title="主页"></a>主页</h3><h4 id="用户完成登录流程后，系统将引导至主界面，用户可选择进入心动模式以启动-用户匹配-服务。"><a href="#用户完成登录流程后，系统将引导至主界面，用户可选择进入心动模式以启动-用户匹配-服务。" class="headerlink" title="用户完成登录流程后，系统将引导至主界面，用户可选择进入心动模式以启动==用户匹配==服务。"></a>用户完成登录流程后，系统将引导至主界面，用户可选择进入心动模式以启动==用户匹配==服务。</h4><p><br/></p><p><img src="https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E5%AD%A6%E4%BC%B4%E6%98%93%E5%AF%BB%E5%9B%BE%E7%89%87%E9%9B%86/%E7%99%BB%E5%BD%95%EF%BC%8C%E4%B8%BB%E9%A1%B5%EF%BC%8C%E5%BF%83%E5%8A%A8.jpg" alt="登录，主页，心动"></p><p><br/></p><h3 id="队伍页"><a href="#队伍页" class="headerlink" title="队伍页"></a>队伍页</h3><h4 id="队伍界面管理：点击加号创建新队伍，支持-公开-与-加密-两种模式。"><a href="#队伍界面管理：点击加号创建新队伍，支持-公开-与-加密-两种模式。" class="headerlink" title="队伍界面管理：点击加号创建新队伍，支持==公开==与==加密==两种模式。"></a>队伍界面管理：点击加号创建新队伍，支持==公开==与==加密==两种模式。</h4><p><br/></p><p><img src="https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E5%AD%A6%E4%BC%B4%E6%98%93%E5%AF%BB%E5%9B%BE%E7%89%87%E9%9B%86/%E5%85%AC%E5%BC%80%EF%BC%8C%E5%8A%A0%E5%AF%86%EF%BC%8C%E5%88%9B%E5%BB%BA%E9%98%9F%E4%BC%8D.jpg" alt="公开，加密，创建队伍"></p><p><br/></p><h4 id="为了保护队伍隐私，加密队伍需要密码才能进入。同时，我们也提供-标签搜索-功能，帮助你快速找到志同道合的伙伴。"><a href="#为了保护队伍隐私，加密队伍需要密码才能进入。同时，我们也提供-标签搜索-功能，帮助你快速找到志同道合的伙伴。" class="headerlink" title="为了保护队伍隐私，加密队伍需要密码才能进入。同时，我们也提供==标签搜索==功能，帮助你快速找到志同道合的伙伴。"></a>为了保护队伍隐私，加密队伍需要密码才能进入。同时，我们也提供==标签搜索==功能，帮助你快速找到志同道合的伙伴。</h4><p><br/></p><p><img src="https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E5%AD%A6%E4%BC%B4%E6%98%93%E5%AF%BB%E5%9B%BE%E7%89%87%E9%9B%86/%E5%8A%A0%E5%AF%86%EF%BC%8C%E6%A0%87%E7%AD%BE%EF%BC%8C%E7%BB%93%E6%9E%9C.jpg" alt="加密，标签，结果"></p><p><br/></p><h3 id="个人页"><a href="#个人页" class="headerlink" title="个人页"></a>个人页</h3><h4 id="用户可以在个人信息界面方便地修改个人信息，并对自己创建和加入的队伍进行管理。"><a href="#用户可以在个人信息界面方便地修改个人信息，并对自己创建和加入的队伍进行管理。" class="headerlink" title="用户可以在个人信息界面方便地修改个人信息，并对自己创建和加入的队伍进行管理。"></a>用户可以在个人信息界面方便地修改个人信息，并对自己创建和加入的队伍进行管理。</h4><p><br/></p><p><img src="https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E5%AD%A6%E4%BC%B4%E6%98%93%E5%AF%BB%E5%9B%BE%E7%89%87%E9%9B%86/%E4%B8%AA%E4%BA%BA%EF%BC%8C%E4%BF%AE%E6%94%B9%EF%BC%8C%E5%B7%B2%E5%88%9B%E5%BB%BA.jpg" alt="个人，修改，已创建"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学伴易寻系统 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Spring容器：IoC</title>
+      <link href="/2024/05/21/%E5%85%B3%E4%BA%8ESpring%E7%9A%84IOC/"/>
+      <url>/2024/05/21/%E5%85%B3%E4%BA%8ESpring%E7%9A%84IOC/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1、Spring容器：IoC"><a href="#1、Spring容器：IoC" class="headerlink" title="1、Spring容器：IoC"></a>1、Spring容器：IoC</h2><ol><li>IoC 是 Inversion of Control 的简写，译为“控制反转”，它不是一门技术，而是一种设计思想，是一个重要的面向对象编程法则，能够指导我们如何设计出松耦合、更优良的程序。</li><li>Spring 通过 IoC 容器来管理所有 Java 对象的实例化和初始化，控制对象与对象之间的依赖关系。我们将由 IoC 容器管理的 Java 对象称为 Spring Bean，它与使用关键字 new 创建的 Java 对象没有任何区别。</li><li>IoC 容器是 Spring 框架中最重要的核心组件之一，它贯穿了 Spring 从诞生到成长的整个过程。</li></ol><h3 id="1-2、IoC容器"><a href="#1-2、IoC容器" class="headerlink" title="1.2、IoC容器"></a>1.2、IoC容器</h3><h4 id="1-2-1、控制反转（IoC）"><a href="#1-2-1、控制反转（IoC）" class="headerlink" title="1.2.1、控制反转（IoC）"></a>1.2.1、控制反转（IoC）</h4><ul><li>控制反转是一种思想。</li><li>控制反转是为了降低程序耦合度，提高程序扩展力。</li><li>控制反转，反转的是什么？</li><li><ul><li>将对象的创建权利交出去，交给第三方容器负责。</li><li>将对象和对象之间关系的维护权交出去，交给第三方容器负责。</li></ul></li><li>控制反转这种思想如何实现呢？</li><li><ul><li>DI（Dependency Injection）：依赖注入</li></ul></li></ul><h4 id="1-2-2、依赖注入"><a href="#1-2-2、依赖注入" class="headerlink" title="1.2.2、依赖注入"></a>1.2.2、依赖注入</h4><p>DI（Dependency Injection）：依赖注入，依赖注入实现了控制反转的思想。</p><p>依赖注入：</p><ul><li>指Spring创建对象的过程中，将对象依赖属性通过配置进行注入</li></ul><p>依赖注入常见的实现方式包括两种：</p><ul><li>第一种：set注入</li><li>第二种：构造注入</li></ul><p>所以结论是：IOC 就是一种控制反转的思想， 而 DI 是对IoC的一种具体实现。</p><p>Bean管理说的是：Bean对象的创建，以及Bean对象中属性的赋值（或者叫做Bean对象之间关系的维护）。</p><h4 id="1-2-3、IoC容器在Spring的实现"><a href="#1-2-3、IoC容器在Spring的实现" class="headerlink" title="1.2.3、IoC容器在Spring的实现"></a>1.2.3、IoC容器在Spring的实现</h4><p>Spring 的 IoC 容器就是 IoC思想的一个落地的产品实现。IoC容器中管理的组件也叫做 bean。在创建 bean 之前，首先需要创建IoC 容器。Spring 提供了IoC 容器的两种实现方式：</p><p>①BeanFactory</p><p>这是 IoC 容器的基本实现，是 Spring 内部使用的接口。面向 Spring 本身，不提供给开发人员使用。</p><p>②ApplicationContext</p><p>BeanFactory 的子接口，提供了更多高级特性。面向 Spring 的使用者，几乎所有场合都使用 ApplicationContext 而不是底层的 BeanFactory。</p><p>③ApplicationContext的主要实现类</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Spring容器 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第一篇文章</title>
+      <link href="/2024/05/21/2024-5-20-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2024/05/21/2024-5-20-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="简单介绍MarkDown语法-和Butterfly外挂标签"><a href="#简单介绍MarkDown语法-和Butterfly外挂标签" class="headerlink" title="简单介绍MarkDown语法 和Butterfly外挂标签"></a>简单介绍MarkDown语法 和Butterfly外挂标签</h1><h2 id="1-行内图片-inlineimage"><a href="#1-行内图片-inlineimage" class="headerlink" title="1.行内图片 inlineimage"></a>1.行内图片 inlineimage</h2><p>这是 <img no-lazy class="inline" src="https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E5%90%90%E8%88%8C.png" style="height:1.5em"/> 一段话。</p><p>这又是 <img no-lazy class="inline" src="https://wbe-tilas.oss-cn-hangzhou.aliyuncs.com/%E5%90%90%E8%88%8C.png" style="height:40px;"/> 一段话。</p><h2 id="诗词标签-poem"><a href="#诗词标签-poem" class="headerlink" title="诗词标签 poem"></a>诗词标签 poem</h2><div class='poem'><div class='poem-title'>水调歌头</div><div class='poem-author'>苏轼</div><p>丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。<br>明月几时有？把酒问青天。<br>不知天上宫阙，今夕是何年？<br>我欲乘风归去，又恐琼楼玉宇，高处不胜寒。<br>起舞弄清影，何似在人间？</p><p>转朱阁，低绮户，照无眠。<br>不应有恨，何事长向别时圆？<br>人有悲欢离合，月有阴晴圆缺，此事古难全。<br>但愿人长久，千里共婵娟。</p></div><h2 id="2-引入note"><a href="#2-引入note" class="headerlink" title="2.引入note"></a>2.引入note</h2><h2 id="自带icon"><a href="#自带icon" class="headerlink" title="自带icon"></a>自带icon</h2><details class="folding-tag" cyan open><summary> 查看默认打开的折叠框 </summary>              <div class='content'>              <div class="note simple"><p>默认 提示块标签</p></div><div class="note default simple"><p>default 提示块标签</p></div><div class="note primary simple"><p>primary 提示块标签</p></div><div class="note success simple"><p>success 提示块标签</p></div><div class="note info simple"><p>info 提示块标签</p></div><div class="note warning simple"><p>warning 提示块标签</p></div><div class="note danger simple"><p>danger 提示块标签</p></div>              </div>            </details><h2 id="外部icon"><a href="#外部icon" class="headerlink" title="外部icon"></a>外部icon</h2><div class="note [color] [icon] [style] flat"><p>Any content (support inline tags too.io).</p></div><div class="tip "><p>default</p></div><div class="tip info"><p>info</p></div><div class="tip success"><p>success</p></div><div class="tip error"><p>error</p></div><div class="tip warning"><p>warning</p></div><div class="tip bolt"><p>bolt</p></div><div class="tip ban"><p>ban</p></div><div class="tip home"><p>home</p></div><div class="tip sync"><p>sync</p></div><div class="tip cogs"><p>cogs</p></div><div class="tip key"><p>key</p></div><div class="tip bell"><p>bell</p></div><div class="tip fa-atom"><p>自定义font awesome图标</p></div><h2 id="行内文本span"><a href="#行内文本span" class="headerlink" title="行内文本span"></a>行内文本span</h2><ul><li>彩色文字<br>在一段话中方便插入各种颜色的标签，包括：<span class='p red'>红色</span>、<span class='p yellow'>黄色</span>、<span class='p green'>绿色</span>、<span class='p cyan'>青色</span>、<span class='p blue'>蓝色</span>、<span class='p gray'>灰色</span>。</li><li>超大号文字<br>文档「开始」页面中的标题部分就是超大号文字。<span class='p center logo large'>Volantis</span><span class='p center small'>A Wonderful Theme for Hexo</span></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 文章 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>睁眼看世界</title>
       <link href="/2024/05/21/hello-world/"/>
       <url>/2024/05/21/hello-world/</url>
       
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
+      
+      <categories>
+          
+          <category> Hello World </category>
+          
+      </categories>
       
       
     </entry>
