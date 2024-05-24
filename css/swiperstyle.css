@@ -163,14 +163,14 @@ div#swiper_container {
     -webkit-flex-shrink:0;
     flex-shrink:0;
     height:200px;
-    padding:10px;
-    border-radius:5px;
+    padding:0px;
+    border-radius:20px;
     -webkit-transform:translateX(0);
     -moz-transform:translateX(0);
     -o-transform:translateX(0);
     -ms-transform:translateX(0);
     transform:translateX(0);
-    overflow:hidden
+    overflow:hidden;
 }
 .blog-slider__img:after {
     content:'';
@@ -400,6 +400,6 @@ div#swiper_container {
     }
     .blog-slider__img {
         width: 330px;
-        height:220px;
+        height:210px;
     }
 }

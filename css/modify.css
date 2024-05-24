@@ -157,7 +157,7 @@
   width: 100%;
   height: 100%;
   pointer-events: none;
-  z-index: -1;
+  z-index: 1;
 }
 /* 亮色模式下隐藏 */
 [data-theme='light'] #universe {
@@ -212,8 +212,8 @@
   border-radius: 8px;
 }
 :root {
-  --trans-light: rgba(255,255,255,0.66);
-  --trans-dark: rgba(25,25,25,0.66);
+  --trans-light: rgba(255,255,255,0.98);
+  --trans-dark: rgba(25,25,25,0.9);
   --border-style: 1px solid #a9a9a9;
   --backdrop-filter: blur(5px) saturate(150%);
 }
@@ -221,14 +221,15 @@
 #recent-posts > .recent-post-item {
   background: var(--trans-light);
   backdrop-filter: var(--backdrop-filter);
-  border-radius: 20px;
+  border-radius: 12px;
   border: var(--border-style);
+  height: 18em;
 }
 /* 首页侧栏卡片 */
 #aside-content .card-widget {
   background: var(--trans-light);
   backdrop-filter: var(--backdrop-filter);
-  border-radius: 18px;
+  border-radius: 12px;
   border: var(--border-style);
 }
 /* 文章页、归档页、普通页面 */
@@ -238,7 +239,7 @@ div#archive {
   background: var(--trans-light);
   backdrop-filter: var(--backdrop-filter);
   border: var(--border-style);
-  border-radius: 20px;
+  border-radius: 12px;
 }
 /* 导航栏 */
 #page-header.nav-fixed #nav {
@@ -546,6 +547,78 @@ svg.icon {
   vertical-align: -0.15em;
   fill: currentColor;
   overflow: hidden;
+}
+.card-info-avatar .author-status-box {
+  position: absolute;
+  bottom: 0;
+  left: calc(100% - 28px);
+  width: 28px;
+  height: 28px;
+  border: 1px solid #d0d7de;
+  border-radius: 2em;
+  background-color: rgba(248,248,248,0.973);
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -ms-transition: 0.4s;
+  transition: 0.4s;
+  overflow: hidden;
+}
+[data-theme="dark"] .card-info-avatar .author-status-box {
+  background-color: rgba(34,34,34,0.949);
+  border: 1px solid #5c6060;
+}
+.card-info-avatar .author-status-box .author-status {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 28px;
+  padding: 0 5px;
+}
+.card-info-avatar .author-status-box:hover {
+  width: 105px;
+}
+.card-info-avatar .author-status-box:hover .author-status span {
+  width: 105px;
+  margin-left: 4px;
+}
+.card-info-avatar .author-status-box .author-status span {
+  width: 0;
+  font-size: 12px;
+  height: 100%;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -ms-transition: 0.4s;
+  transition: 0.4s;
+}
+.card-widget .card-info-avatar {
+  display: inline-block;
+  position: relative;
+}
+/* 信息卡片彩带 */
+.author_top:hover {
+  background: url("https://tuchuang.voooe.cn/images/2023/01/02/snow.gif");
+  background-size: cover;
 }
 @-moz-keyframes light_15px {
   0% {
