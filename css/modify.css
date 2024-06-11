@@ -1,27 +1,9 @@
 #page-header {
   background: transparent !important;
 }
-#page-header.post-bg,
-#page-header.not-home-page {
-  height: 280px !important;
-}
 #page-header #post-info {
-  bottom: 40px !important;
+  bottom: 120px !important;
   text-align: center;
-}
-#page-header #page-site-info {
-  top: 140px !important;
-}
-@media screen and (max-width: 768px) {
-  #page-header.not-home-page {
-    height: 200px !important;
-  }
-  #page-header #post-info {
-    bottom: 10px !important;
-  }
-  #page-header #page-site-info {
-    top: 100px !important;
-  }
 }
 .top-img {
   height: 250px;
@@ -42,14 +24,8 @@
     margin: -36px -14px 36px;
   }
 }
-[data-theme='dark'] .top-img {
-  filter: brightness(0.8);
-}
 #footer:before {
   background-color: rgba(255,255,255,0.5);
-}
-[data-theme='dark'] #footer:before {
-  background-color: rgba(0,0,0,0.5);
 }
 #footer-wrap,
 #footer-wrap a {
@@ -59,10 +35,13 @@
   -o-transition: unset;
   -ms-transition: unset;
   transition: unset;
+/* 夜间模式遮罩透明 */
 }
-[data-theme='dark'] #footer-wrap,
-[data-theme='dark'] #footer-wrap a {
-  color: var(--light-grey);
+[data-theme="dark"] #footer::before {
+  background: transparent !important;
+}
+[data-theme="dark"] #page-header::before {
+  background: transparent !important;
 }
 /* 小冰分类分类磁铁黑夜模式适配 */
 /* 一般状态 */
