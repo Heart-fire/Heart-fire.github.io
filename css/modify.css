@@ -209,6 +209,7 @@
 }
 :root {
   --trans-light: rgba(255,255,255,0.8);
+  --trans-light2: rgba(255,255,255,0.88);
   --trans-dark: rgba(25,25,25,0.9);
   --border-style: #a9a9a9;
   --backdrop-filter: blur(5px) saturate(150%);
@@ -233,7 +234,7 @@
 div#post,
 div#page,
 div#archive {
-  background: var(--trans-light);
+  background: var(--trans-light2);
   backdrop-filter: var(--backdrop-filter);
   border: var(--border-style);
   border: none; /* 直接设置为none来取消边框 */
