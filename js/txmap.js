@@ -1,60 +1,4 @@
-// let ipLoacation;  
-  
-// $.ajax({  
-//     type: 'get',  
-//     url: 'https://apis.map.qq.com/ws/location/v1/ip',  
-//     data: {  
-//         key: 'BAXBZ-FMILI-5AGGW-UTKJR-V52UO-ZUFRI', // 请确保这是您的有效 API 密钥  
-//         output: 'jsonp',  
-//     },  
-//     dataType: 'jsonp',  
-//     success: function (res) {  
-//         ipLoacation = res;  
-//         showWelcome(); // 在这里调用 showWelcome 函数  
-//     },  
-//     error: function (error) {  
-//         console.error('Error fetching IP location:', error);  
-//     }  
-// });  
-// function getDistance(e1, n1, e2, n2) {
-//     const R = 6371
-//     const { sin, cos, asin, PI, hypot } = Math
-//     let getPoint = (e, n) => {
-//         e *= PI / 180
-//         n *= PI / 180
-//         return { x: cos(n) * cos(e), y: cos(n) * sin(e), z: sin(n) }
-//     }
 
-//     let a = getPoint(e1, n1)
-//     let b = getPoint(e2, n2)
-//     let c = hypot(a.x - b.x, a.y - b.y, a.z - b.z)
-//     let r = asin(c / 2) * 2 * R
-//     return Math.round(r);
-// }
-
-// function showWelcome() {  
-//     if (!ipLoacation || !ipLoacation.result || !ipLoacation.result.location) {  
-//         console.error('IP location data not available');  
-//         return;  
-//     }  
-  
-//     // 假设的“自己”的经纬度（您已知的精确经纬度）  
-//     let myLongitude = 117.1082742800484;  
-//     let myLatitude = 39.07196823778102;  
-  
-//     // 从 IP 定位 API 获取的经纬度  
-//     let ipLongitude = ipLoacation.result.location.lng;  
-//     let ipLatitude = ipLoacation.result.location.lat;  
-  
-//     // 计算距离  
-//     let dist = getDistance(myLongitude, myLatitude, ipLongitude, ipLatitude);  
-  
-//     // 打印结果  
-//     console.log('Distance from your assumed location to IP location:', dist, 'km');  
-//     let pos = ipLoacation.result.ad_info.nation;  
-//     let ip = ipLoacation.result.ip; // 可能还需要获取 IP 地址信息  
-//     let posdesc = pos; // 或者您可能需要基于位置信息构造一个更详细的描述  
-//     // 在这里可以使用 dist, pos, ip, 和 posdesc 变量  
 //get请求
 $.ajax({
     type: 'get',
@@ -86,7 +30,7 @@ function getDistance(e1, n1, e2, n2) {
 
 function showWelcome() {
 
-    let dist = getDistance(117.10996407172779, 39.07090623331168, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
+    let dist = getDistance(117.01089620590211, 39.1375209892481, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
     let pos = ipLoacation.result.ad_info.nation;
     let ip;
     let posdesc;
